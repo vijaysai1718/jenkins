@@ -1,0 +1,16 @@
+pipeline{
+    stages{
+        stage('code')
+        {
+            steps{
+                echo 'you are in the deploy stage'
+            }
+        }
+        stage('bulid')
+        {
+            steps{
+                echo 'you are in the bulid stage'
+            }
+        }
+    }
+}
